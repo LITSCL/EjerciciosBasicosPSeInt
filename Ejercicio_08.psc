@@ -5,8 +5,8 @@ Algoritmo Ejercicio_08
 	Escribir "Ingrese la cantidad de segundos"
 	Leer __segundos
 	__minutos = trunc(__segundos / 60)
-	Si __segundos%60 <> 0 Entonces
-		Mientras __segundos%60 <> 0 Hacer
+	Si __segundos % 60 <> 0 Entonces
+		Mientras __segundos % 60 <> 0 Hacer
 			__segundos = __segundos + 1
 			__segundos_faltantes = __segundos_faltantes + 1
 		FinMientras
